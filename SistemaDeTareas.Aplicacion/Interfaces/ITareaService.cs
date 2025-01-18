@@ -8,6 +8,6 @@ namespace SistemaDeTareas.Aplicacion.Interfaces
         Task<IEnumerable<TareaDto>> ObtenerTareasAsync();
         Task<TareaDto> ObtenerTareaPorIdAsync(int id);
         Task<TareaDto> AsignarTareaAsync(int tareaId, int usuarioId);
-        Task<IEnumerable<TareaDto>> ObtenerTareasPorUsuarioAsync(int id);
+        Task<IEnumerable<TareaDto>> ObtenerTareasPorUsuarioAsync(int usuarioId);
     }
 }
