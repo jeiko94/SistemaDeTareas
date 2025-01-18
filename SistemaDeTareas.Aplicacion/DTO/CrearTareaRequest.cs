@@ -2,7 +2,7 @@
 {
     public class CrearTareaRequest
     {
-        public string? Tarea { get; set; }
+        public string? Titulo { get; set; }
         public string? Descripcion { get; set; }
     }
 }
